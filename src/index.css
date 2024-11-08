@@ -1,0 +1,225 @@
+*{
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    width: 1400px;
+    height: 100px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style-type: none;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.nav-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: #ff4901;
+    border: 2px solid #ff4800;
+    color: white;
+    font-weight: 400;
+    
+}
+li{
+    font-size: larger;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.search-btn{
+    align-items: center;
+   margin-bottom: 20px;
+    cursor: pointer;
+}
+.text{
+    
+    margin-left: 70px;
+}
+.big-text{
+    font-size:100px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.stack{
+   border-bottom: 5px solid #ff4800;
+   padding: 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    padding: 25px;
+}
+.inner{
+    width: 600px;
+}
+.head{
+    font-size: 67px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.desc{
+    font-size:30px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+.card-btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+.card-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 155px ;
+    height: 55px;
+    transform: rotate(359deg);
+    transition: width 0.4s, height 0.4s;
+    border: 2px solid white;
+}
+.story{
+    background-image: url("https://img.freepik.com/premium-photo/happy-family-three-with-phones-family-father-son-playing-games-evening-night_1001749-16481.jpg?semt=ais_hybrid");
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 700px;
+     padding: 40px;
+}
+.head-two{
+    font-size: 67px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.desc-two{
+    font-size:30px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.purple-box{
+    background-image: linear-gradient(to right, rgb(102, 22, 194) , rgb(76, 0, 255));
+    height: 400px;
+}
+.p-inner{
+    width: 500px;
+    margin-left: 400px;
+   padding-top: 20px;
+}
+.p-heading{
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.p-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.p-text-two{
+    color: white;
+    text-align: center;
+    
+   
+}
+.r-heading{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+}
+.r-seprate{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px grey;
+    width: 420px;
+    border-radius: 40px;
+
+}
+.r-img{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.r-box{
+    display: flex;
+  justify-content: space-evenly;
+  /* gap: 5px; */
+    
+}
+.r-text{
+    width: 400px;
+    text-align: left;
+   padding-left: 30px;
+
+}
+.f-heading{
+    font-size: 60px ;
+    color: white;
+    text-align: center;
+}
+.main{
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA8QMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAWEAEBAQAAAAAAAAAAAAAAAAAAARH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMQAAAAAAAAAAVFQAFUgCAigiKgCiRRQAABQARABQFEERUUAAURQAQVUUQRUFFEEFAAAASqURAFFEEFEAURVUAQFQAAVEFEEICipQRSKgAAAAAqKAAAAAioqACAAAqKoCKgKgKAAAAgqKgAKAIAAAAAAKIAoAAAIKigKIgAAAoAIoAAAAlUBAoAAAAAAAAIAAKgKoigAAAgKIoAAAAAiqgAigAAIBQAAAAAABAAA0AIqRRQAAoAgoAqAKACIooAAAIACgiogACAAAAAigAKAAKAigAAAAAAKCAqiAIAQoACgACAIgAoAAAIAAAACoCqCAoAAAAACoKKiogAAAAgqKAAgAAAAAgACgCgAiKIooAACggKCAKAAAAACIgCgAAAAAAAgACqACCgIoCAAooAAA//Z");
+    width: 1340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 1000px;
+}
+.f-btn{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: #ff4901;
+    border: 2px solid #ff4800;
+    color: white;
+    font-weight: 400;
+    margin-left: 580px;
+}
+.f-inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.f-text{
+    color: white;
+}
+.f-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: column;
+}
+.f-icons{
+    color: #ff4800;
+    font-size: 40px;
+}
+.f-last{
+    color: grey;
+    text-indent: 20px;
+}
+hr{
+    height: 1px;
+    color: #ff4800;
+}
